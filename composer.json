@@ -1,7 +1,7 @@
 {
-  "name": "micro-module/broadway-bundle",
+  "name": "ddd-module/broadway-bundle",
   "type": "symfony-bundle",
-  "description": "Symfony bundle for micro-module/broadway.",
+  "description": "Symfony bundle for ddd-module/broadway.",
   "keywords": [
     "cqrs",
     "event sourcing",
