@@ -36,12 +36,11 @@
   ],
   "require": {
     "php": "^7.4 || ^8.0",
-    "micro-module/broadway": "^v2.6",
     "symfony/console": "^5.3 || ^6.0 || ^7.0",
-    "symfony/http-kernel": "^5.3 || ^6.0 || ^7.0"
+    "symfony/http-kernel": "^5.3 || ^6.0 || ^7.0",
+    "ddd-module/broadway": "^1.0"
   },
   "require-dev": {
-    "micro-module/broadway-saga": "^0.6",
     "matthiasnoback/symfony-config-test": "^4.0",
     "matthiasnoback/symfony-dependency-injection-test": "^4.0",
     "monolog/monolog": "~2.0",
@@ -53,6 +52,7 @@
     "friendsofphp/php-cs-fixer": "^3.0"
   },
   "suggest": {
+    "micro-module/broadway-saga": "^0.6",
     "psr/log-implementation": "Implementation for PSR3, LoggerInterface",
     "micro-module/event-store-dbal": "Event store implementation using doctrine/dbal",
     "broadway/read-model-elasticsearch": "Elasticsearch read model implementation using elastic/elasticsearch-php"
